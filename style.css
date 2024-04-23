@@ -155,6 +155,12 @@ body {
     overflow: hidden;
 }
 
+#bid {
+  border: 1px solid #ed0000;
+  box-shadow: 0 0 10px #ed0000;
+  overflow: hidden;
+}
+
   #quote {
     border: 1px solid #d4af37;
     box-shadow: 0 0 10px #d4af37;
