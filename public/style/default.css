@@ -23,6 +23,7 @@ body {
     background-color: var(--primary-color-background);
     margin: 0;
     padding-bottom: 5rem;
+    font-family: 'roboto', sans-serif;
 }
 
 header {
