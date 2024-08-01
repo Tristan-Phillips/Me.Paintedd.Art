@@ -3,182 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Painted d - Find me</title>
-    <link rel="icon" type="image/x-icon" href="/public/img/favicon.ico">
+    <link rel="stylesheet" href="public/style/default.css">
+    <script src="/public/script/default.js" defer></script>
+    <title>Paintedd</title>
 </head>
 <body>
-    <div class="container">
-    <!-- Online Store -->
-    <a href="https://paintedd.store" target="_blank">
-      <div class="card" id="store">
-          <div class="article-card">
-              <div class="logo">
-                  <img src="public/img/art-logo.webp" alt="logo">
-              </div>
+
+    <header>
+        <div class="content">
+            <h1>Painted d</h1>
+            <p>Find me</p>
+        </div>
+        <div class="payment-portals">
+            <a href="https://url.trap.lol/paintedd-paypal">
+                <img src="/public/img/paypal-logo.jpg" alt="" id="paypal">
+            </a>
+            <a href="https://url.trap.lol/paintedd-revolut">
+                <img src="/public/img/revolute-logo.png" alt="" id="revolut">
+            </a>
+        </div>
+    </header>
+
+    <section class="cards">
+        <!--Online Store-->
+        <div class="card" id="store">
+            <a href="https://url.trap.lol/paintedd-store">
+                <img src="/public/img/store-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/art-logo.webp" alt="" class="logo">
+            </div>
             <div class="content">
-              <p class="subtext">Purchase some merch</p>
-              <p class="title">Browse my online store</p>
+                <p class="subtext">Purchase some merch</p>
+                <p class="title">Browse my online store</p>
             </div>
-            <img src="public/img/store-cover.jpg" alt="My online store">
-          </div>
         </div>
-        </a>
-<!-- Ko-Fi Donations -->
-    <a href="https://ko-fi.com/paintedd" target="_blank">
-      <div class="card" id="kofi">
-          <div class="article-card">
-              <div class="logo">
-                  <img src="public/img/kofi-logo.png" alt="logo">
-              </div>
+        <!--TikTok-->
+        <div class="card" id="tiktok">
+            <a href="https://url.trap.lol/paintedd-tiktok">
+                <img src="/public/img/tiktok-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/tiktok-logo.png" alt="" class="logo">
+            </div>
             <div class="content">
-              <p class="subtext">Any donation is amazing</p>
-              <p class="title">Kindly support my work</p>
+                <p class="subtext">Cosplay, art, poetry and everything in between</p>
+                <p class="title">View my TikToks</p>
             </div>
-            <img src="public/img/kofi-cover.jpg" alt="Ko-Fi Donations">
-          </div>
         </div>
-        </a>
-<!-- Paypal -->
-    <a href="https://www.paypal.me/DpSquared" target="_blank">
-    <div class="card" id="paypal">
-        <div class="article-card">
-            <div class="logo">
-                <img src="public/img/paypal-logo.png" alt="logo">
-            </div>
-          <div class="content">
-            <p class="subtext">Payments with paypal</p>
-            <p class="title">PayPal payment portal</p>
-          </div>
-          <img src="public/img/paypal-cover.jpg" alt="My PayPal">
-        </div>
-      </div>
-      </a>
-    <!-- Bid Store -->
-<!--
-    <a href="https://bid.paintedd.store" target="_blank">
-      <div class="card" id="bid">
-          <div class="article-card">
-              <div class="logo">
-                  <img src="public/img/bid-logo.png" alt="logo">
-              </div>
-            <div class="content">
-              <p class="subtext">Bid on art</p>
-              <p class="title">Browse my art and place a bid</p>
-            </div>
-            <img src="public/img/bid-cover.png" alt="My online auction">
-          </div>
-        </div>
-        </a>
--->
-    <!-- Discord Community -->
-    <a href="https://discord.gg/cumAqqYPKR" target="_blank">
+        <!--Discord Community-->
         <div class="card" id="discord">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/discord-logo.png" alt="logo">
-                </div>
-              <div class="content">
+            <a href="https://url.trap.lol/discord-paintedd">
+                <img src="/public/img/discord-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/discord-logo.png" alt="" class="logo">
+            </div>
+            <div class="content">
                 <p class="subtext">A growing community</p>
                 <p class="title">Join my community</p>
-              </div>
-              <img src="public/img/discord-cover.jpg" alt="My discord community">
             </div>
-          </div>
-          </a>
-    <!-- Patreon Community -->
-    <!--
-<a href="https://www.patreon.com/Painted_d" target="_blank">
-        <div class="card" id="patreon">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/patreon-logo.png" alt="logo">
-                </div>
-              <div class="content">
-                <p class="subtext">Your kind support is appreciated</p>
-                <p class="title">Support my work</p>
-              </div>
-              <img src="public/img/patreon-cover.png" alt="My patreon">
-            </div>
-          </div>
-          </a>
--->
-    <!-- YouTube -->
-    <a href="https://www.youtube.com/@painted_d" target="_blank">
+        </div>
+        <!--YouTube-->
         <div class="card" id="youtube">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/youtube-logo.png" alt="logo">
-                </div>
-              <div class="content">
+            <a href="https://url.trap.lol/paintedd-youtube">
+                <img src="/public/img/youtube-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/youtube-logo.png" alt="" class="logo">
+            </div>
+            <div class="content">
                 <p class="subtext">Watch me paint</p>
                 <p class="title">Watch my YouTube videos</p>
-              </div>
-              <img src="public/img/youtube-cover.jpg" alt="My YouTube">
             </div>
-          </div>
-          </a>
-    <!-- TikTok -->
-    <a href="https://www.tiktok.com/@painted_d" target="_blank">
-        <div class="card" id="tiktok">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/tiktok-logo.png" alt="logo">
-                </div>
-              <div class="content">
-                <p class="subtext">Cosplay, art, poetry and everything in between</p>
-                <p class="title"> View my TikToks</p>
-              </div>
-              <img src="public/img/tiktok-cover.jpg" alt="My tiktok">
-            </div>
-          </div>
-          </a>
-    <!-- Mastodon -->
-    <a href="https://mastodon.art/@paintedd" target="_blank">
+        </div>
+        <!--Mastodon-->
         <div class="card" id="mastodon">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/mastodon-logo.png" alt="logo">
-                </div>
-              <div class="content">
+            <a href="https://url.trap.lol/paintedd-mastodon">
+                <img src="/public/img/mastodon-cover.png" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/mastodon-logo.png" alt="" class="logo">
+            </div>
+            <div class="content">
                 <p class="subtext">Follow me on Mastodon</p>
-                <p class="title">View my toots</p>
-              </div>
-              <img src="public/img/mastodon-cover.png" alt="My Mastodon">
+                <p class="title">Vierw my Toots</p>
             </div>
-          </div>
-          </a>
-          <a rel="me" href="https://mastodon.art/@paintedd"></a>
-    <!-- Revolute -->
-    <a href="https://revolut.me/paintedd" target="_blank">
-        <div class="card" id="revolute">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/revolute-logo.png" alt="logo">
-                </div>
-              <div class="content">
-                <p class="subtext">Payments with revolute</p>
-                <p class="title">Revolute payment portal</p>
-              </div>
-              <img src="public/img/revolute-cover.jpg" alt="My Revolute">
+        </div>
+        <!--Art Page-->
+        <div class="card" id="artpage">
+            <a href="https://url.trap.lol/paintedd-art-page">
+                <img src="/public/img/art-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/art-logo.webp" alt="" class="logo">
             </div>
-          </div>
-          </a>
-    <!-- Art Page -->
-    <a href="https://paintedd.art" target="_blank">
-        <div class="card" id="art">
-            <div class="article-card">
-                <div class="logo">
-                    <img src="public/img/art-logo.webp" alt="logo">
-                </div>
-              <div class="content">
+            <div class="content">
                 <p class="subtext">My portfolio site</p>
                 <p class="title">View my art</p>
-              </div>
-              <img src="public/img/art-cover.jpg" alt="My art page">
             </div>
-          </div>
-          </a>
-    <script src="script.js"></script>
+        </div>
+        <!--Ko-Fi-->
+        <!-- <div class="card" id="kofi">
+            <a href="https://url.trap.lol/paintedd-kofi">
+                <img src="/public/img/kofi-cover.jpg" alt="" class="card-bg">
+            </a>
+            <div>
+                <img src="/public/img/kofi-logo.png" alt="" class="logo">
+            </div>
+            <div class="content">
+                <p class="subtext">Any donation is amazing</p>
+                <p class="title">Kindly support my work</p>
+            </div>
+        </div> -->
+    </section>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+    kofiWidgetOverlay.draw('paintedd', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support Me',
+        'floating-chat.donateButton.background-color': '#d9534f',
+        'floating-chat.donateButton.text-color': '#fff'
+    });
+    </script>
 </body>
 </html>

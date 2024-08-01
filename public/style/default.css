@@ -1,0 +1,183 @@
+:root {
+    --primary-color-background: #111011;
+    --primary-color-background-card: #000000;
+    --primary-color-red: #ed0000;
+    --primary-color-header: #111011;
+    --primary-text-color-white: #ffffff;
+
+    --social-color-discord: #738ADB;
+    --social-color-youtube: #FF0000;
+    --social-color-instagram: #d62976;
+    --social-color-facebook: #1877F2;
+    --social-color-paypal: #2577c4;
+    --social-color-amazon: #d4af37;
+    --social-color-kofi: #FF5E5B;
+    --social-color-tiktok-left: #25F4EE;
+    --social-color-tiktok-right: #FE2C55;
+    --social-color-artpage: #ed0000;
+    --social-color-revolut: #d4af37;
+    --social-color-mastodon: #79aaff;
+}
+
+body {
+    background-color: var(--primary-color-background);
+    margin: 0;
+    padding-bottom: 5rem;
+}
+
+header {
+    background-color: var(--primary-color-header);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--primary-color-background);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--primary-text-color-white);
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
+
+header p {
+    color: var(--primary-text-color-white);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+header .payment-portals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .payment-portals img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 150px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-content: flex-start;
+    width: 100vw
+}
+
+.card {
+    position: relative;
+    background-color: var(--primary-color-background-card);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card .content {
+    position: absolute;
+    bottom: 0;
+}
+
+.card p {
+    color: var(--primary-text-color-white);
+}
+
+.card img {
+    width: 369px;
+}
+
+.card .logo {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card .content .subtext {
+    color: var(--primary-text-color-white);
+    font-size: 1em;
+    margin: 0;
+}
+
+.card .content .title {
+    color: var(--primary-text-color-white);
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+.card#store {
+    border: 1px solid var(--primary-color-red);
+    box-shadow: 0 0 10px var(--primary-color-red);
+    overflow: hidden;
+}
+
+.card#kofi {
+    border: 1px solid var(--social-color-kofi);
+    box-shadow: 0 0 10px var(--social-color-kofi);
+    overflow: hidden;
+}
+
+.card#discord {
+    border: 1px solid var(--social-color-discord);
+    box-shadow: 0 0 10px var(--social-color-discord);
+    overflow: hidden;
+}
+
+.card#youtube {
+    border: 1px solid var(--social-color-youtube);
+    box-shadow: 0 0 10px var(--social-color-youtube);
+    overflow: hidden;
+}
+
+.card#tiktok {
+    border-top: 1px solid var(--social-color-tiktok-left);
+    border-left: 1px solid var(--social-color-tiktok-left);
+    border-bottom: 1px solid var(--social-color-tiktok-right);
+    border-right: 1px solid var(--social-color-tiktok-right);
+    box-shadow: 0 0 10px var(--social-color-tiktok-right);
+    overflow: hidden;
+}
+
+.card#artpage {
+    border: 1px solid var(--social-color-artpage);
+    box-shadow: 0 0 10px var(--social-color-artpage);
+    overflow: hidden;
+}
+
+.card#mastodon {
+    border: 1px solid var(--social-color-mastodon);
+    box-shadow: 0 0 10px var(--social-color-mastodon);
+    overflow: hidden;
+}
+
+.payment-portals #paypal {
+    border: 1px solid var(--social-color-paypal);
+    box-shadow: 0 0 10px var(--social-color-paypal);
+    overflow: hidden;
+}
+
+.payment-portals #revolut {
+    border: 1px solid var(--social-color-revolut);
+    box-shadow: 0 0 10px var(--social-color-revolut);
+    overflow: hidden;
+}
