@@ -17,6 +17,7 @@
     --social-color-artpage: #ed0000;
     --social-color-revolut: #d4af37;
     --social-color-mastodon: #79aaff;
+    --social-color-doodle: #f1f1f1;
 }
 
 body {
@@ -171,6 +172,12 @@ header .payment-portals img {
     overflow: hidden;
 }
 
+.card#doodle {
+    border: 1px solid var(--social-color-doodle);
+    box-shadow: 0 0 10px var(--social-color-doodle);
+    overflow: hidden;
+}
+
 .payment-portals #paypal {
     border: 1px solid var(--social-color-paypal);
     box-shadow: 0 0 10px var(--social-color-paypal);
@@ -181,4 +188,15 @@ header .payment-portals img {
     border: 1px solid var(--social-color-revolut);
     box-shadow: 0 0 10px var(--social-color-revolut);
     overflow: hidden;
+}
+
+h2 {
+    color: var(--primary-text-color-white);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
