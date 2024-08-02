@@ -178,6 +178,18 @@ header .payment-portals img {
     overflow: hidden;
 }
 
+.card#instagram {
+    border: 1px solid var(--social-color-instagram);
+    box-shadow: 0 0 10px var(--social-color-instagram);
+    overflow: hidden;
+}
+
+.card#facebook {
+    border: 1px solid var(--social-color-facebook);
+    box-shadow: 0 0 10px var(--social-color-facebook);
+    overflow: hidden;
+}
+
 .payment-portals #paypal {
     border: 1px solid var(--social-color-paypal);
     box-shadow: 0 0 10px var(--social-color-paypal);
