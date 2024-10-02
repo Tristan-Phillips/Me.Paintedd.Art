@@ -18,6 +18,7 @@
     --social-color-revolut: #d4af37;
     --social-color-mastodon: #79aaff;
     --social-color-doodle: #f1f1f1;
+    --social-color-twitch: #6441a5;
 }
 
 body {
@@ -187,6 +188,18 @@ header .payment-portals img {
 .card#facebook {
     border: 1px solid var(--social-color-facebook);
     box-shadow: 0 0 10px var(--social-color-facebook);
+    overflow: hidden;
+}
+
+.card#twitch {
+    border: 1px solid var(--social-color-twitch);
+    box-shadow: 0 0 10px var(--social-color-twitch);
+    overflow: hidden;
+}
+
+.card#amazon {
+    border: 1px solid var(--social-color-amazon);
+    box-shadow: 0 0 10px var(--social-color-amazon);
     overflow: hidden;
 }
 
